@@ -1,0 +1,117 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-color: #f8f9fa;
+  padding: 0px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header nav ul li {
+  cursor: pointer;
+}
+
+.hero-section {
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #e9f4ff;
+  margin: 0 120px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+}
+
+.hero-content p {
+  font-size: 24px;
+}
+
+.hero-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #1A73E8;
+  color: #fff;
+}
+.how-it-works{
+  background: #EEF5FF;
+}
+
+.how-it-works, .referral-benefits, .faq-section {
+  padding: 50px 20px;
+}
+
+.how-it-works h2, .referral-benefits h2, .faq-section h2 {
+  font-size: 32px;
+}
+
+.how-it-works .steps {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.how-it-works .step {
+  width: 30%;
+}
+
+.referral-benefits table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.referral-benefits table th, .referral-benefits table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.faq-section .faq {
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
